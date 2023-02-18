@@ -45,5 +45,6 @@ class Auto:
                     if i.registro == self.registro:
                         b = True
                     else:
-                        return False
-        return b
+                        return "Las piezas no son originales"
+        if b:
+            return "Auto original"
